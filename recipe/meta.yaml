@@ -1,5 +1,5 @@
 {% set name = "antlr-cpp-runtime" %}
-{% set version = "4.12.0" %}
+{% set version = "4.13.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://www.antlr.org/download/antlr4-cpp-runtime-{{ version }}-source.zip
-  sha256: 642d59854ddc0cebb5b23b2233ad0a8723eef20e66ef78b5b898d0a67556893b
+  sha256: d350e09917a633b738c68e1d6dc7d7710e91f4d6543e154a78bb964cfd8eb4de
 
 build:
   number: 0
@@ -21,7 +21,7 @@ requirements:
     - {{ compiler('cxx') }}
     - cmake
     - make
-    - pkg-config 
+    - pkg-config
 
 test:
   commands:
