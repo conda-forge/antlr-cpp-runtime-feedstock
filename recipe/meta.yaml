@@ -10,7 +10,7 @@ source:
   sha256: 0ed13668906e86dbc0dcddf30fdee68c10203dea4e83852b4edb810821bee3c4
 
 build:
-  number: 0
+  number: 1
   skip: true  # [win]
   run_exports:
     - {{ pin_subpackage('antlr-cpp-runtime', max_pin='x') }}
