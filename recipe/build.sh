@@ -22,5 +22,11 @@ make test
 popd
 
 # prune assets with no control to not build
+rm -rf $PREFIX/include/gmock
+rm -rf $PREFIX/include/gtest
 rm -rf $PREFIX/lib/libgtest*
 rm -rf $PREFIX/lib/libgmock*
+rm -rf $PREFIX/lib/cmake/GTest*
+rm -rf $PREFIX/lib/pkgconfig/gmock*
+rm -rf $PREFIX/lib/pkgconfig/gtest*
+
