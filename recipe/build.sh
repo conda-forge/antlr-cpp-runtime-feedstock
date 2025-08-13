@@ -29,3 +29,4 @@ rm -rf $PREFIX/lib/libgmock*
 rm -rf $PREFIX/lib/cmake/GTest*
 rm -rf $PREFIX/lib/pkgconfig/gmock*
 rm -rf $PREFIX/lib/pkgconfig/gtest*
+
